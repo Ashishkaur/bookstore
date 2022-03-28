@@ -20,10 +20,36 @@
      height : 70px;
  }
  .logo{
-     color: #ff7200;
-     font-size: 35px ;
-     font-family:  Arial;
-     padding-left: 20px;
+     color: #0084ff;
+     font-size: 30px ;
+     font-family:'Times New Roman', Times, serif;
+     padding-left: 5px;
      float: left;
      padding-top: 10px;
+ } 
+ .menu{
+     width: 500px;
+     float: left;
+     height: 100px;
  }
+ ul{
+     float: left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ ul li{
+     list-style: none;
+     margin-left: 62px;
+     margin-top: 27px;
+     font-size: 16px;
+ }
+ ul li{
+     text-decoration:underline;
+     color: #fff;
+     font-family:'Times New Roman', Times, serif;
+     font-weight: bold;
+     transition: 0.4s ease-in-out;
+
+ }
+  
