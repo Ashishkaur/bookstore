@@ -1,4 +1,55 @@
-.app-body{
-      background-color: #f5f5f5;
-      height: 100vh;
+*{
+    margin:0;
+    padding:0;
 }
+ .main{
+     width:100%;
+     background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../backimage.jpg);
+     background-position: center;
+     background-size: cover;
+     height: 109vh;
+ }
+ .navbar{
+     width: 1200px;
+     height: 75px;
+     margin: auto;
+ }
+ .icon{
+     width: 200px;
+     float: left;
+     height : 70px;
+ }
+ .logo{
+     color: #0084ff;
+     font-size: 30px ;
+     font-family:'Times New Roman', Times, serif;
+     padding-left: 5px;
+     float: left;
+     padding-top: 10px;
+ } 
+ .menu{
+     width: 500px;
+     float: left;
+     height: 100px;
+ }
+ ul{
+     float: left;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ ul li{
+     list-style: none;
+     margin-left: 62px;
+     margin-top: 27px;
+     font-size: 16px;
+ }
+ ul li{
+     text-decoration:underline;
+     color: #fff;
+     font-family:'Times New Roman', Times, serif;
+     font-weight: bold;
+     transition: 0.4s ease-in-out;
+
+ }
+  
