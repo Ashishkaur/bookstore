@@ -36,6 +36,7 @@
   width: 500px;
   float: left;
   height: 100px;
+
 }
 ul {
   float: left;
@@ -48,6 +49,7 @@ ul li {
   margin-left: 62px;
   margin-top: 27px;
   font-size: 16px;
+  padding: 5px;
 }
 ul li a {
   text-decoration: none;

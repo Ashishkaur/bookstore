@@ -1,0 +1,8 @@
+.main{
+ padding: auto;
+}
+.card{
+    float:left;
+    align-items: center;
+    border-spacing: 50px;
+}
